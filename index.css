@@ -29,12 +29,14 @@ body {
   text-align: center;
 }
 
-h1 {
-  text-align: center;
+.heading {
+	text-align: center;
+	letter-spacing: 4px;
+	font-family: "Times New Roman", Times, serif;
 }
 
-h2 {
-  text-align: center;
+h1 {
+	font-size: 72px;
 }
 
 h3 {
