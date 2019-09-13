@@ -1,58 +1,72 @@
 
 body {
-	padding: 0;
-  width: 100%;
-  height: 100vh;
-  font-family: "Exo", sans-serif;
-  color: #fff;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradientBG 45s ease infinite;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 45s ease infinite;
 }
 
 @keyframes gradientBG {
-	0% {
+    0% {
 		background-position: 0% 50%;
 	}
-  50% {
-    background-position: 100% 50%;
+    50% {
+        background-position: 100% 50%;
   }
-  100% {
-    background-position: 0% 50%;
+    100% {
+        background-position: 0% 50%;
   }
 }
 
 .container {
-	width: 100%;
-  position: absolute;
-  top: 35%;
-  text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
 }
 
 .heading {
 	text-align: center;
 	letter-spacing: 6px;
-	font-family: monospace;
 }
 
 h1 {
 	font-size: 72px;
-	vertical-align: middle;
+    padding-top: 285px;
+    margin-bottom: auto;
+}
+
+h2 {
+    margin-top: 2px;
+}
+
+hr {
+    width: 50%;
+    
 }
 
 h3 {
-  text-align: center;
+    text-align: center;
+    padding-top: 300px;
+    letter-spacing: 6px;
 }
 
 .navbar {
-  text-align: center;
-  display: block;
+    text-align: center;
+    display: block;
 	overflow: hidden;
+    padding-top: 15px;
 
 }
 
 .navbar a {
 	text-decoration: none;
+    padding: 25px;
+    color: black;
 }
 
 #about {
@@ -61,10 +75,6 @@ h3 {
 
 #skills {
 	font-size: 32px;
-}
-
-.skills {
-
 }
 
 .languages {
@@ -81,9 +91,9 @@ h3 {
 
 .footer {
 	position:absolute;
-  bottom:0;
-  width:100%;
-  height:10px;
+    bottom:0;
+    width:100%;
+    height:10px;
 
 }
 .footer a {
