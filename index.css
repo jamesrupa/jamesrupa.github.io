@@ -50,20 +50,6 @@ hr {
     
 }
 
-h3 {
-    letter-spacing: 6px;
-}
-
-#scroll_down{
-    padding-top: 300px;
-    margin-bottom: auto;
-}
-
-#learn_more {
-    margin-bottom: 3px;
-    margin-top: auto;
-}
-
 .navbar {
     display: block;
 	overflow: hidden;
@@ -77,6 +63,19 @@ h3 {
     color: black;
 }
 
+h3 {
+    letter-spacing: 6px;
+}
+
+#scroll_down{
+    padding-top: 350px;
+    margin-bottom: auto;
+}
+
+#learn_more {
+    margin-bottom: 3px;
+    margin-top: auto;
+}
 
 
 
