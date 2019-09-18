@@ -1,14 +1,14 @@
-var countDownDate = new Date("October 1, 2019 00:00:00").getTime();
+let countDownDate = new Date("October 1, 2019 00:00:00").getTime();
 
 // Update the count down every 1 second
-var x = setInterval(function () {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
+let x = setInterval(function () {
+    let now = new Date().getTime();
+    let distance = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in an element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
