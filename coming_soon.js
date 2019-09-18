@@ -1,3 +1,5 @@
+"use strict"
+
 let countDownDate = new Date("October 1, 2019 00:00:00").getTime();
 
 // Update the count down every 1 second
