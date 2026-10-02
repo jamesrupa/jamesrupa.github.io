@@ -1,40 +1,294 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>James Rupa</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <script src="index.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>James Rupa — Network Engineer</title>
+<meta name="description" content="James Rupa is a Network Engineer based in New York specializing in secure network infrastructure, firewalls, and multi-site deployments for SMB and enterprise clients.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2308090c'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%237dd3fc' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-    <div class="container">
-        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-            <path d="M0,172v-172h172v172z" fill="none"></path>
-            <g fill="#eeeeee">
-                <path d="M143.19336,21.43001c-0.26705,0.00844 -0.53341,0.03181 -0.79785,0.06999h-34.89551c-2.58456,-0.03655 -4.98858,1.32136 -6.29153,3.55376c-1.30295,2.2324 -1.30295,4.99342 0,7.22582c1.30295,2.2324 3.70697,3.59031 6.29153,3.55376h18.53256l-66.59961,66.59961c-1.8722,1.79752 -2.62637,4.46674 -1.97164,6.97823c0.65473,2.51149 2.61604,4.4728 5.12753,5.12753c2.51149,0.65473 5.18071,-0.09944 6.97823,-1.97165l66.59961,-66.59961v18.53255c-0.03655,2.58456 1.32136,4.98858 3.55376,6.29153c2.2324,1.30295 4.99342,1.30295 7.22582,0c2.2324,-1.30295 3.59031,-3.70697 3.55376,-6.29153v-34.9235c0.28889,-2.08845 -0.35639,-4.19816 -1.76411,-5.76769c-1.40772,-1.56953 -3.43507,-2.43964 -5.54253,-2.3788zM35.83333,21.5c-7.83362,0 -14.33333,6.49972 -14.33333,14.33333v100.33333c0,7.83362 6.49972,14.33333 14.33333,14.33333h100.33333c7.83362,0 14.33333,-6.49972 14.33333,-14.33333v-43c0.03655,-2.58456 -1.32136,-4.98858 -3.55376,-6.29153c-2.2324,-1.30295 -4.99342,-1.30295 -7.22582,0c-2.2324,1.30295 -3.59031,3.70697 -3.55376,6.29153v43h-100.33333v-100.33333h43c2.58456,0.03655 4.98858,-1.32136 6.29153,-3.55376c1.30295,-2.2324 1.30295,-4.99342 0,-7.22582c-1.30295,-2.2324 -3.70697,-3.59031 -6.29153,-3.55376z"></path>
-            </g>
-        </g>
+<div class="noise"></div>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+
+<header class="nav-wrap">
+  <nav class="nav">
+    <a href="#top" class="logo">JR<span class="dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#experience" data-nav>Experience</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#contact" data-nav class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <svg class="net-graphic" viewBox="0 0 400 300" aria-hidden="true">
+      <g stroke="currentColor" stroke-width="1" fill="none" opacity=".5">
+        <line x1="200" y1="40" x2="80" y2="130"/>
+        <line x1="200" y1="40" x2="200" y2="130"/>
+        <line x1="200" y1="40" x2="320" y2="130"/>
+        <line x1="80" y1="130" x2="40" y2="230"/>
+        <line x1="80" y1="130" x2="120" y2="230"/>
+        <line x1="200" y1="130" x2="180" y2="230"/>
+        <line x1="200" y1="130" x2="240" y2="230"/>
+        <line x1="320" y1="130" x2="290" y2="230"/>
+        <line x1="320" y1="130" x2="350" y2="230"/>
+      </g>
+      <g fill="currentColor">
+        <circle class="node" cx="200" cy="40" r="6"/>
+        <circle class="node" cx="80" cy="130" r="5"/>
+        <circle class="node" cx="200" cy="130" r="5"/>
+        <circle class="node" cx="320" cy="130" r="5"/>
+        <circle class="node" cx="40" cy="230" r="4"/>
+        <circle class="node" cx="120" cy="230" r="4"/>
+        <circle class="node" cx="180" cy="230" r="4"/>
+        <circle class="node" cx="240" cy="230" r="4"/>
+        <circle class="node" cx="290" cy="230" r="4"/>
+        <circle class="node" cx="350" cy="230" r="4"/>
+      </g>
+    </svg>
+
+    <div class="terminal reveal" aria-hidden="true">
+      <div class="terminal-bar">
+        <span class="t-dot t-red"></span><span class="t-dot t-yellow"></span><span class="t-dot t-green"></span>
+        <span class="terminal-title">netops — zsh</span>
+      </div>
+      <div class="terminal-body" id="terminalBody"></div>
     </div>
 
+    <p class="eyebrow reveal">Hello, I'm</p>
+    <h1 class="hero-name reveal">James Rupa<span class="cursor">_</span></h1>
+    <p class="hero-role reveal">Network Engineer designing, deploying, and securing infrastructure for SMB &amp; enterprise clients.</p>
+    <p class="hero-sub reveal">Network Engineer at EkoTechs · Queens, NY</p>
+    <div class="status-badge reveal"><span class="status-dot"></span>Currently supporting live client networks</div>
+    <div class="hero-actions reveal">
+      <a href="#experience" class="btn btn-primary">View Experience</a>
+      <a href="Rupa_James_J_Resume.pdf" class="btn btn-ghost" download>Résumé</a>
+    </div>
+    <div class="hero-socials reveal">
+      <a href="https://github.com/jamesrupa" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.66.5 12.03c0 5.1 3.29 9.43 7.86 10.96.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.2.67.8.56A10.53 10.53 0 0 0 23.5 12.03C23.5 5.66 18.35.5 12 .5Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/jamesrupa" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+      </a>
+      <a href="mailto:jamesjrupa@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 6.2L19.8 6H4.2ZM4 8.1v10.4h16V8.1l-8 6.35L4 8.1Z"/></svg>
+      </a>
+    </div>
+  </section>
 
+  <section class="section" id="about">
+    <div class="section-head reveal">
+      <span class="section-num">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text reveal">
+        I'm an IT professional with three years of hands-on experience building, securing, and
+        maintaining network infrastructure inside a managed service provider environment. Day to
+        day, that means designing network topology, deploying and configuring firewalls, switches,
+        and wireless access points, and keeping systems monitored, documented, and running
+        reliably across a wide range of client environments — from small offices to multi-site
+        enterprise rollouts. I started out studying computer science, and that foundation still
+        shapes how I troubleshoot and think about automation. Outside of client work, I keep those
+        coding skills sharp through personal projects.
+      </p>
+      <ul class="about-facts reveal">
+        <li><span>Location</span>Queens, NY</li>
+        <li><span>Current Role</span>Network Engineer @ EkoTechs</li>
+        <li><span>Education</span>B.S. Computer Science, Brooklyn College</li>
+        <li><span>Focus</span>Network Infrastructure · Security · Systems</li>
+      </ul>
+    </div>
+  </section>
 
-    <h1>
-        <a href="" class="typewrite" data-period="2000" data-type='["James Rupa", "Network Engineer", "Indie Game Developer", "Cyber Security", "IT Technician"]'>
-            <span class="wrap"></span>
-        </a>
-    </h1>
-    <hr>
-    <div class="navbar">
-        <a id="github" href="https://github.com/jamesrupa"><img src="img/github_logo.png" width="52" height="52"></a>
-        <a id="linkedin" href="https://www.linkedin.com/in/jamesrupa"><img src="img/linkedin_logo.png" width="50" height="50"></a>
-        <a id="resume" href="Rupa_James_J_Resume_2026-04-24.pdf" target="_blank"><img src="img/resume_logo.png" width="50" height="50"></a>
+  <section class="stats-strip">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-num">3+</span>
+        <span class="stat-label">Years in Network Engineering</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num">120+</span>
+        <span class="stat-label">MSP Clients Supported</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num">5+</span>
+        <span class="stat-label">Vendor Platforms</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num">NW</span>
+        <span class="stat-label">Nationwide Deployments</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="section-head reveal">
+      <span class="section-num">02</span>
+      <h2>Experience</h2>
     </div>
 
+    <div class="timeline">
+      <div class="timeline-packet" aria-hidden="true"></div>
+      <div class="timeline-company reveal">
+        <h3>EkoTechs</h3>
+        <span class="timeline-range">December 2023 — Present</span>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <h4>Network Engineer</h4>
+            <span class="timeline-date">Nov 2024 — Present</span>
+          </div>
+          <ul>
+            <li>Designed, configured, deployed, and supported secure network infrastructures for SMB and enterprise clients</li>
+            <li>Installed, configured, and upgraded firewalls, switches, WAPs, servers, and access control systems</li>
+            <li>Led nationwide network upgrades, testing, and deployments across multi-site client environments</li>
+            <li>Implemented VLANs, firewall rules, and site-to-site VPNs to improve network segmentation and performance</li>
+            <li>Deployed and maintained network and server monitoring using Nagios for proactive alerting</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <h4>Junior Network Engineer</h4>
+            <span class="timeline-date">Aug 2024 — Nov 2024</span>
+          </div>
+          <ul>
+            <li>Troubleshot Layer 1–3 network issues, including cabling, switching, routing, VPN, and wireless</li>
+            <li>Installed and maintained structured cabling across client work environments</li>
+            <li>Supported data center and cloud-hosted environments, including vSphere VM provisioning</li>
+            <li>Developed and maintained network documentation, inventories, and topology diagrams</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <h4>IT Support Engineer</h4>
+            <span class="timeline-date">Dec 2023 — Aug 2024</span>
+          </div>
+          <ul>
+            <li>Delivered Level 1 &amp; 2 support across 120 MSP clients ranging from 2–500 users</li>
+            <li>Administered Active Directory, email platforms, and endpoint configurations</li>
+            <li>Created technical documentation and maintained device/customer inventories</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-head reveal">
+      <span class="section-num">03</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <h4>Networking &amp; Security</h4>
+        <div class="chips"><span>Ubiquiti</span><span>SonicWall</span><span>Fortinet</span><span>Ruckus</span><span>pfSense</span></div>
+      </div>
+      <div class="skill-group">
+        <h4>Security Tools</h4>
+        <div class="chips"><span>CrowdStrike</span><span>Barracuda</span><span>Bitdefender</span><span>SpamHero</span></div>
+      </div>
+      <div class="skill-group">
+        <h4>Monitoring, Backup &amp; Virtualization</h4>
+        <div class="chips"><span>Nagios</span><span>UrBackup</span><span>vSphere</span></div>
+      </div>
+      <div class="skill-group">
+        <h4>Identity &amp; Device Management</h4>
+        <div class="chips"><span>JumpCloud</span><span>Google Workspace</span><span>Microsoft 365</span><span>Azure / Intune</span></div>
+      </div>
+      <div class="skill-group">
+        <h4>Ticketing &amp; Management</h4>
+        <div class="chips"><span>Atera</span><span>NinjaOne</span><span>Jira</span><span>Freshdesk</span><span>OSTicket</span></div>
+      </div>
+      <div class="skill-group">
+        <h4>Operating Systems</h4>
+        <div class="chips"><span>Windows 10/11</span><span>Windows Server</span><span>macOS</span><span>Linux</span></div>
+      </div>
+      <div class="skill-group">
+        <h4>Development</h4>
+        <div class="chips"><span>C#</span><span>Python</span><span>Java</span><span>JavaScript</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-head reveal">
+      <span class="section-num">04</span>
+      <h2>Side Projects</h2>
+    </div>
+    <p class="section-sub reveal">Outside of network engineering, I still enjoy building things in code.</p>
+    <div class="project-grid">
+
+      <article class="project-card compact reveal">
+        <div class="project-top">
+          <span class="project-tag">Game Dev</span>
+          <a href="https://github.com/jamesrupa/Lost-Haste" target="_blank" rel="noopener" class="project-link" aria-label="Lost Haste on GitHub">↗</a>
+        </div>
+        <h3>Lost Haste</h3>
+        <p>A 3D open-world survival craft game built solo in Unity — crafting, building, an inventory system, and AI-driven wildlife across 35+ C# scripts.</p>
+        <div class="project-stack"><span>Unity</span><span>C#</span></div>
+      </article>
+
+      <article class="project-card compact reveal">
+        <div class="project-top">
+          <span class="project-tag">Homelab</span>
+          <span class="status-badge sm"><span class="status-dot"></span>Online</span>
+        </div>
+        <h3>Homelab</h3>
+        <p>A self-hosted infrastructure stack running on Proxmox VE and a Mac Mini server, with Docker containers for a remote-access agent (MeshCentral), a local AI/LLM runtime (Ollama), photo/iOS backup (Immich), and a Minecraft game server.</p>
+        <div class="project-stack"><span>Proxmox VE</span><span>Docker</span><span>MeshCentral</span><span>Ollama</span><span>Immich</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="section-head reveal">
+      <span class="section-num">05</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-box reveal">
+      <p>Looking to talk networking, infrastructure, or opportunities? My inbox is open.</p>
+      <a href="mailto:jamesjrupa@gmail.com" class="btn btn-primary btn-lg">jamesjrupa@gmail.com</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Designed &amp; built by James Rupa · <span id="year"></span></p>
+  <div class="footer-links">
+    <a href="https://github.com/jamesrupa" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/jamesrupa" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="Rupa_James_J_Resume.pdf" download>Résumé</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
