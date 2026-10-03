@@ -355,6 +355,9 @@ a{color:inherit; text-decoration:none;}
 .project-card.compact{
   padding:22px;
 }
+.project-card.featured{
+  grid-column:1 / -1;
+}
 .project-card.compact h3{
   font-size:1.1rem;
 }
